@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETERNALS</title>
+    <style>
+        /* Reset margin dan padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth; /* Halus saat scrolling */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1d3557, #457b9d);
+            color: #f1faee;
+            text-align: center;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Foto Profil */
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #a8dadc;
+            background: url('https://8030.us.kg/file/9TdOwVvcw6cF.jpg') center/cover no-repeat;
+            animation: blink 3s infinite alternate; /* Animasi berkedip lambat */
+            margin-bottom: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes blink {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0.6;
+            }
+        }
+
+        /* Info Profil */
+        .info {
+            margin-bottom: 20px;
+        }
+
+        .info h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .info p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Tombol */
+        .buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            font-size: 1rem;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background: #e63946;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease; /* Efek halus */
+        }
+
+        .buttons a:hover {
+            background: #f77f00;
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #bcd4e6;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="profile-pic"></div>
+    <div class="info">
+        <h1>ETERNALS YA</h1>
+        <p>Status: Pemula</p>
+        <p>Aplikasi: CBT - Matrish Next Update 5.1</p>
+    </div>
+    <div class="buttons">
+        <a href="https://t.me" target="_blank">Telegram</a>
+        <a href="https://wa.me" target="_blank">WhatsApp Support</a>
+    </div>
+    <footer>
+        &copy; 2024 Satya Damar. All Rights Reserved.
+    </footer>
+</body>
+</html>
 
